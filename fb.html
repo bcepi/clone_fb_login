@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Selectores</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div id="main">
+        <div id="welcom_box">
+            <h2>Sign Up</h2>
+            <h4>It's free and anyone can join</h4>
+        </div>
+        <div id="user_box">
+            <form>
+                <div>
+                    <label for="firstName">First Name:</label> 
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label for="yourEmail">Your Email:</label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label for="newPassword">New Password:</label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label for="iAm">I am:</label>
+                    <select name="selectSex">
+                        <option value="" disabled selected>Select Sex</option>
+                        <option value="Man">Man</option>
+                        <option value="Woman">Woman</option>
+                    </select> 
+                </div>
+                <div>
+                    <label for="birthday">Birthday:</label>
+                    <input type="date"/>
+                </div>
+                <button>Sign Up</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
